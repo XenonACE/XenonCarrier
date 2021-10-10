@@ -6,7 +6,7 @@
 
   (title_block
     (title "Raspberry Pi Compute Module 4 Xenon Carrier")
-    (date "2021-10-09")
+    (date "2021-10-10")
     (rev "v01")
     (company "77Z")
     (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
@@ -60,6 +60,12 @@
     )
     (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/fc65571d-c50e-4d3a-83dc-55dddbd09cc7"
+      (reference "CR?") (unit 1) (value "SMBJ5.0A-TR") (footprint "SMB_STM")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/ccc87d82-830e-483b-972c-30e8cef5d35e"
+      (reference "J?") (unit 1) (value "USB4105_REVA") (footprint "GCT_USB4105_REVA")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
