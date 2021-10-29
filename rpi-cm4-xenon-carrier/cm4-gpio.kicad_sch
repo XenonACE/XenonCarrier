@@ -1375,6 +1375,11 @@
     (uuid 167c7351-d773-40cd-a47a-21663a7b0c37)
   )
 
+  (label "Voltage Divider from battery" (at 187.96 101.6 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f2f74b9b-6d77-460f-b20d-df8a51d9c317)
+  )
+
   (global_label "+3.3V" (shape output) (at 38.1 149.86 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7fee9447-ed3d-457c-bfa8-81a5f13fe459)
