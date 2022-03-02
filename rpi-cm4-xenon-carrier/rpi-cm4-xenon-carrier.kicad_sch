@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20220104) (generator eeschema)
 
   (uuid a2e4dd68-1a6c-4ed7-8d52-277c49ef8d8e)
 
@@ -6,9 +6,10 @@
 
   (title_block
     (title "Raspberry Pi Compute Module 4 Xenon Carrier")
-    (date "2021-10-10")
+    (date "2022-03-01")
     (rev "v01")
     (company "77Z")
+    (comment 1 "77z.dev")
     (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
     (comment 3 "License: CC BY 4.0")
     (comment 4 "Author: Vince Richter")
@@ -18,26 +19,26 @@
   )
 
 
-  (sheet (at 101.6 50.8) (size 38.1 38.1)
-    (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))
-    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
-    (property "Sheet name" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 101.6 101.6) (size 38.1 38.1)
     (stroke (width 0) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
-    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
+    (property "Sheetname" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+    (property "Sheetfile" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
+    (property "Sheetname" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -49,29 +50,110 @@
   )
 
   (symbol_instances
-    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/230650eb-8852-4c76-b63c-12ec79910b81"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/31551326-27c6-4bba-a0c0-abe772948a8c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/03f9b782-a494-46cb-99cc-49a29443c36e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
-    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/fc65571d-c50e-4d3a-83dc-55dddbd09cc7"
-      (reference "CR?") (unit 1) (value "SMBJ5.0A-TR") (footprint "SMB_STM")
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/11f41cfe-3fc1-4e7b-8256-ae3816fc9398"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/21cd7327-22db-43ea-9e18-036ab406cabd"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/2d7d7fb0-6be6-4904-b2db-292874b5df9d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/5afeed43-d8cb-401c-9f38-5f8b31ff7351"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a012bb80-fa8e-495e-8431-65990ddf0aee"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/a5d838c3-f607-46b1-8b15-8d2b87780673"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/b5267f21-e889-4d5f-ab82-812039ce5a4f"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/d58d3466-c8c3-4860-a29c-8cd36e7095f3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/f83ffa05-0ac2-43f9-b0ed-4939d759d167"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/86fc485e-a02b-4a1c-b2ad-568839a63672"
+      (reference "CR?") (unit 1) (value "SMBJ5.0A-TR") (footprint "SMBJ5.0A-TR:SMBJ5.0A-TR")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/ccc87d82-830e-483b-972c-30e8cef5d35e"
-      (reference "J?") (unit 1) (value "USB4105_REVA") (footprint "GCT_USB4105_REVA")
+      (reference "J?") (unit 1) (value "USB4105_REVA") (footprint "USB4105_REVA:GCT_USB4105_REVA")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/caa71f4c-454d-4ac9-b287-456eafb34991/fafda8be-1326-444e-bcc1-8cb4aded3240"
       (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/399be853-f37d-4b99-ac68-7e592ebcef43"
+      (reference "Q?") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7caeb269-1789-4aff-80f4-74c039514636"
+      (reference "Q?") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/8ebd8fbe-c367-4847-a383-8c17a45cae94"
+      (reference "Q?") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/b559775e-b982-4329-ad06-649bda754a0c"
+      (reference "Q?") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/eba2f4aa-9537-42e7-80fe-a93008995796"
+      (reference "Q?") (unit 1) (value "2N2219") (footprint "Package_TO_SOT_THT:TO-39-3")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/013ef7a4-1fcb-4978-a9ba-5f18228f93ca"
+      (reference "R?") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/06fb18b1-4caa-49ee-90df-a063357cd2e7"
+      (reference "R?") (unit 1) (value "5K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/4d5e264a-4eff-4b64-b5bb-4db226734f0b"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/5d0b5611-dfc3-4ab0-b529-acb526f8dd12"
+      (reference "R?") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/92f36b7d-bcb7-493f-9a41-6dbdde988db6"
+      (reference "R?") (unit 1) (value "5K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9d2527c1-90c9-43bd-83d7-5fe9c1f2eee8"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9ddb8cb9-46a4-4fea-8cf5-67f549eef1b7"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/aa415302-843f-4fe1-97e7-31a69c0b1bd6"
+      (reference "R?") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/c83516c6-b7c2-4a54-8a44-68b8e720801a"
+      (reference "R?") (unit 1) (value "5.1k") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/e90fb4b1-5322-446d-a2ff-6638819cc332"
+      (reference "R?") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9b1a3828-7409-4e6e-a608-6129eef1cc99"
+      (reference "SW?") (unit 1) (value "SW_Push_Power") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/ec31b267-c798-41d8-acc6-5ec3041c5390"
+      (reference "SW?") (unit 1) (value "SW_DIP_x01") (footprint "")
     )
   )
 )
