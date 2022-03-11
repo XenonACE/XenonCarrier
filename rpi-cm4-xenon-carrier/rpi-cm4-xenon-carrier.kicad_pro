@@ -426,7 +426,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rpi-cm4-xenon-carrier.step",
       "vrml": ""
     },
     "page_layout_descr_file": "/home/vince/Documents/KiCad/rpi-cm4-xenon-carrier/SmallerLogo.kicad_wks"

@@ -1,4 +1,4 @@
-20165906612066797
+20165030926203039
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50664,20 +50664,6 @@ https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
 Diode SOD923
 0
 2
-2
-Diode_SMD
-D_SOT-23_ANK
-SOT-23, Single Diode
-SOT-23
-0
-3
-2
-Diode_SMD
-D_SOT-23_NKA
-SOT-23, Single Diode
-SOT-23
-0
-3
 2
 Diode_SMD
 D_TUMD2
