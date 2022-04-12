@@ -486,6 +486,14 @@
     [
       "caa71f4c-454d-4ac9-b287-456eafb34991",
       "CM4 High Speed"
+    ],
+    [
+      "3246b463-1a03-4360-9a1a-431db9da296b",
+      "PowerButton"
+    ],
+    [
+      "bbe76525-c3e2-483e-9808-cb401318f0ca",
+      "SkittleChip"
     ]
   ],
   "text_variables": {}

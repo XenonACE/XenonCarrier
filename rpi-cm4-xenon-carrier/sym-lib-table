@@ -2,4 +2,5 @@
   (lib (name "CM4IO")(type "KiCad")(uri "/home/vince/Documents/KiCad/CM4IO-KiCAD/CM4IO.kicad_sym")(options "")(descr ""))
   (lib (name "USB4105_REVA")(type "Legacy")(uri "/home/vince/Documents/KiCad/rpi-cm4-xenon-carrier/libraries/USB4105_REVA/USB4105_REVA.lib")(options "")(descr ""))
   (lib (name "SMBJ5.0A-TR")(type "Legacy")(uri "/home/vince/Documents/KiCad/rpi-cm4-xenon-carrier/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.lib")(options "")(descr ""))
+  (lib (name "RP2040")(type "Legacy")(uri "/home/vince/Documents/KiCad/rpi-cm4-xenon-carrier/libraries/RP2040/RP2040.lib")(options "")(descr ""))
 )
